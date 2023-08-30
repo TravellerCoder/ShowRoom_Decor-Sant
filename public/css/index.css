@@ -8,59 +8,132 @@
     background-color: black;
     margin: 0;
     padding: 0;
-    height: 150px;
+    height: 60px;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    align-items:center;
+    justify-content:space-around;
+    display: flex;
 }
 
-.navBar ul {
+.navBar .navBar-List {
     list-style-type: none;
     margin: 25;
     padding: 10;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    text-align: center
 }
 
 
-.navBar li {
-    border-right: solid 5px goldenrod;
-    ;
-}
-
-.navBar li:last-child {
-    border-right: none;
-}
-
-.navBar a {
+.navBar .navBar-List .navBar-item {
     text-decoration: none;
     text-align: center;
     margin: 10px;
     padding: 5px;
+    display:inline-block;
+    position: relative;
+}
 
+.navBar .navBar-List .navBar-item a{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
 
-.navBar img {
-
-    width: 120px;
-    height: 120px;
+.navBar .navBar-List .navBar-item .dropdown {
+    background-color: black;
     position: absolute;
+    width: 150px;
+    z-index: 999;
+    display: none;
+    translate: 500ms;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown {
+    display: inline-block;
+    position: relative;
+    padding : 5px;
+    text-align: left;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a{
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+
+.navBar .navBar-List .navBar-item a:hover{
+    color:gold;
+}
+
+.navBar .navBar-List .navBar-item:hover .dropdown{
+    display:block;
+    
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a:hover{
+    color: gold
 
 }
 
+
+.navBar .logoContainer{
+    width: 600px;
+    height: 60px;
+    display: flex ;
+    justify-content:flex-start ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    
+}
+
+.navBar .logoContainer img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+}
+
+.navBar .logoContainer h4{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    margin: 5px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBar .logoContainer p{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 23px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
 body {
     background-color: gray;
+    overflow: hidden;
 }
 
 hr {
     background-color: gold;
+    height: 5px;
 }
+
 
 /* ---------------------------------------------------- SLIDER/CARRUSEL -----------------------------------------*/
 
@@ -152,9 +225,9 @@ a {
 
 .derechos {
     margin-top: 2px;
-    text-align: left;
+    text-align: center;
     opacity: initial;
-    font-size: 12px;
+    font-size: 15px;
     color :antiquewhite
 }
 
