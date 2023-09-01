@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    display: flex;
+}
+
+.navBar .navBar-List {
+    list-style-type: none;
+    margin: 25;
+    padding: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center
+}
+
+
+.navBar .navBar-List .navBar-item {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    display:inline-block;
+    position: relative;
+}
+
+.navBar .navBar-List .navBar-item a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.navBar .navBar-List .navBar-item .dropdown {
+    background-color: black;
+    position: absolute;
+    width: 150px;
+    z-index: 999;
+    display: none;
+    translate: 500ms;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown {
+    display: inline-block;
+    position: relative;
+    padding : 5px;
+    text-align: left;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a{
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+
+.navBar .navBar-List .navBar-item a:hover{
+    color:gold;
+}
+
+.navBar .navBar-List .navBar-item:hover .dropdown{
+    display:block;
+    
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a:hover{
+    color: gold
+
+}
+
+
+.navBar .logoContainer{
+    width: 600px;
+    height: 60px;
+    display: flex ;
+    justify-content:flex-start ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    
+}
+
+.navBar .logoContainer img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+}
+
+.navBar .logoContainer h4{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    margin: 5px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBar .logoContainer p{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 23px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+body {
+    background-color: white;
+    
+}
+
+hr {
+    background-color: gold;
+    height: 5px;
+}
+
+
+
+
+
+/*formulario de contancto
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contact_form{	
+	width: 460px; 
+    height: auto;
+    margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: black; 
+    padding-left: 30px; 
+}
+
+
+input{
+	background-color: gray; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: gold; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+
+textarea{
+    background-color: gray; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: gold; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+label{
+    display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: antiquewhite; 
+	border-color: gold; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+}
+
+
+button p{
+	color: black; 
+}
+
+
+span{
+	color: gold; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: antiquewhite;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: antiquewhite; 
+}
+
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+.formulario button:hover{
+    background-color: gold;
+}
+
+
+/* FOOTEr */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.lineafooter {
+    width: 100%;
+    border-top: 2px solid rgb(218, 218, 218);
+}
+
+.contenedordFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+footer img {
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+
+footer .conocenos {
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.derechos {
+    margin-top: 2px;
+    text-align: center;
+    opacity: initial;
+    font-size: 15px;
+    color :antiquewhite
+}
+
