@@ -6,7 +6,7 @@
 
 .navBar {
     background-color: black;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     height: 60px;
     flex-wrap: wrap;
@@ -14,6 +14,7 @@
     align-items:center;
     justify-content:space-around;
     display: flex;
+    position: relative;
 }
 
 .navBar .navBar-List {
@@ -122,10 +123,15 @@
     
 }
 
-
-
 body {
-    background-color: white;
+    background-color: black;
+}
+
+main {
+    background-image: url('/images/20220408_115405.jpg') ;
+    background-position: 0 0;
+    background-size: 100%;
+    
     
 }
 
@@ -144,7 +150,7 @@ hr {
 .contact_form{	
 	width: 460px; 
     height: auto;
-    margin: 80px auto;
+    margin: 0 auto;
 	border-radius: 10px;  
 	padding-top: 30px;
 	padding-bottom: 20px;  
@@ -154,7 +160,7 @@ hr {
 
 
 input{
-	background-color: gray; 
+	background-color: white; 
 	width: 408px; 
 	height: 40px; 
 	border-radius: 5px;  
@@ -168,7 +174,7 @@ input{
 
 
 textarea{
-    background-color: gray; 
+    background-color: white; 
 	width: 405px; 
 	height: 150px; 
 	border-radius: 5px;  
@@ -216,7 +222,7 @@ span{
 
 .aviso{
 	font-size: 13px;  
-	color: #0e0e0e;  
+	color: white;  
 }
 
 
