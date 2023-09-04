@@ -11,7 +11,4 @@ router.get('/contact', mainController.controller.renderContact);
 router.get('/about', mainController.controller.renderAbout);
 
 
-
-
-
 module.exports = router;

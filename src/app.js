@@ -3,6 +3,7 @@ const methodOverride =  require('method-override');
 const path = require('path');
 const app = express();
 const mainRouter = require('./routers/mainRouter');
+const storeRouter = require('./routers/storeRouter')
 
 
 
@@ -23,4 +24,6 @@ app.listen (port, () =>
 
 
 app.use(mainRouter);
+
+app.use(storeRouter);
 
