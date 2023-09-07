@@ -46,7 +46,7 @@
 .navBar .navBar-List .navBar-item .dropdown {
     background-color: black;
     position: absolute;
-    width: 150px;
+    width: auto;
     z-index: 999;
     display: none;
     translate: 500ms;
@@ -177,9 +177,10 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container:hover{
-    height: 950px;
+    height: auto;
     transition-duration: 1000ms;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .container .imagen:hover{
