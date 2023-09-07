@@ -67,7 +67,7 @@
 }
 
 .navBar .navBar-List .navBar-item a:hover{
-    color:gold;
+    color:#e8c718;
 }
 
 .navBar .navBar-List .navBar-item:hover .dropdown{
@@ -139,6 +139,7 @@ hr {
 
 .container {
     width: 100vw;
+    
     overflow: hidden;
     position: relative;
 }
@@ -157,6 +158,9 @@ hr {
     width: 100%;
     height: 750px;
     
+}
+.container h1{
+    color: white;
 }
 
 .container .puntos {
@@ -181,6 +185,8 @@ hr {
 .container .punto.activo {
     background-color: gold;
 }
+
+
 
 /* FOOTEr */
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
