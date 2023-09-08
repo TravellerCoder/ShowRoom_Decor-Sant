@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    display: flex;
+}
+
+.navBar .navBar-List {
+    list-style-type: none;
+    margin: 25;
+    padding: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center
+}
+
+
+.navBar .navBar-List .navBar-item {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    display:inline-block;
+    position: relative;
+}
+
+.navBar .navBar-List .navBar-item a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.navBar .navBar-List .navBar-item .dropdown {
+    background-color: black;
+    position: absolute;
+    width: auto;
+    z-index: 999;
+    display: none;
+    translate: 500ms;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown {
+    display: inline-block;
+    position: relative;
+    padding : 5px;
+    text-align: left;
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a{
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+
+.navBar .navBar-List .navBar-item a:hover{
+    color:#e8c718;
+}
+
+.navBar .navBar-List .navBar-item:hover .dropdown{
+    display:block;
+    
+}
+
+.navBar .navBar-List .navBar-item .dropdown .item-dropdown a:hover{
+    color: gold
+
+}
+
+
+.navBar .logoContainer{
+    width: 600px;
+    height: 60px;
+    display: flex ;
+    justify-content:flex-start ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    
+}
+
+.navBar .logoContainer img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+}
+
+.navBar .logoContainer h4{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    margin: 5px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBar .logoContainer p{
+    color: antiquewhite;
+    position: relative;
+    display: flex;
+    padding-top: 23px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+hr {
+    background-color: gold;
+    height: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-producto {
+    width: 90%;
+    height: 350px;
+    margin: 5px;
+    border-style: groove;
+    border-radius: 2rem;
+}
+
+.container-producto h2{
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+
+/* FOOTEr */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.lineafooter {
+    width: 100%;
+    border-top: 2px solid rgb(218, 218, 218);
+}
+
+.contenedordFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+footer img {
+    height: 40px;
+    margin: 10px;
+
+}
+
+
+footer .conocenos {
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.derechos {
+    margin-top: 2px;
+    text-align: center;
+    opacity: initial;
+    font-size: 15px;
+    color :antiquewhite
+}
