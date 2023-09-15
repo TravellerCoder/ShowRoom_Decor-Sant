@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +40,7 @@
 
 .navBar .navBar-List .navBar-item a{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: roboto, sans-serif;
     font-size: medium;
 }
 
@@ -143,20 +144,59 @@ hr {
 
 .container-producto {
     width: 90%;
-    height: 350px;
+    height: 500px;
     margin: 5px;
     border-style: groove;
     border-radius: 2rem;
+    background-image: url('../images/melaminico.jpg');
+    flex-direction: column;
+    
+}
+
+.container-producto p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.container-producto a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color:  antiquewhite;
+}
+
+.container-producto2 {
+    width: 90%;
+    height: 500px;
+    margin: 5px;
+    border-style: groove;
+    border-radius: 2rem;
+    background-image: url('../images/piso-spc3.jpg');
 }
 
 .container-producto h2{
-    color: white;
+    color: antiquewhite;
     margin: 1rem;
     padding: 1rem;
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
+.container-producto2 h2{
+    color: antiquewhite;
+    margin: 1rem;
+    padding: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+} 
 
+.container-producto:hover{
+    cursor:pointer;
+    height: 750;
+    transition-duration: 1s;
+
+}
 /* FOOTEr */
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 

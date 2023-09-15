@@ -26,12 +26,20 @@ const controller = {
         return res.render(path.resolve('src/views/showRoom/pulido'))
     },
 
+    renderEpoxy: (req, res) => {
+        return res.render(path.resolve('src/views/showRoom/epoxy'))
+    },
+
     renderRevestimiento: (req, res) => {
         return res.render(path.resolve('src/views/showRoom/revestimiento'))
     },
 
     renderAlfombras: (req, res) => {
         return res.render(path.resolve('src/views/showRoom/alfombra'))
+    },
+
+    renderEscaleras: (req, res) => {
+        return res.render(path.resolve('src/views/showRoom/escaleras'))
     },
 }
 

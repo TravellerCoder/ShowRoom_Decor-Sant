@@ -16,9 +16,13 @@ router.get('/showRoom/deck' , showRoomController.controller.renderDeck)
 
 router.get('/showRoom/pulido' , showRoomController.controller.renderPulido)
 
+router.get('/showRoom/epoxy', showRoomController.controller.renderEpoxy)
+
 router.get('/showRoom/revestimiento' , showRoomController.controller.renderRevestimiento)
 
 router.get('/showRoom/alfombra' , showRoomController.controller.renderAlfombras)
+
+router.get('/showRoom/escaleras', showRoomController.controller.renderEscaleras)
 
 
 module.exports = router

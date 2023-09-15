@@ -207,7 +207,6 @@ hr {
 .container .puntos {
     width: 100vw;
     padding: 1em;
-
     background-color: black;
     display: flex;
     flex-flow: row nowrap;

@@ -172,6 +172,7 @@ hr {
     justify-content: center;
     align-items: center;
     list-style: none;
+    cursor: pointer;
 }
 
 .container .punto{
@@ -184,6 +185,8 @@ hr {
 
 .container .punto.activo {
     background-color: gold;
+    border-radius: 2rem;
+    
 }
 
 
